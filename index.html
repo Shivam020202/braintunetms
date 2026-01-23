@@ -146,11 +146,11 @@
             <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
                 <!-- Text Content -->
                 <div class="lg:w-1/2 text-center lg:text-left">
-                    <div
+                    <!-- <div
                         class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-brand-100 text-brand-700 text-xs font-semibold uppercase tracking-widest mb-8 shadow-sm">
                         <span class="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
                         Mental Wellness Sanctuary
-                    </div>
+                    </div> -->
 
                     <h1
                         class="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-slate-800 leading-[1.1] mb-6 tracking-tight">
@@ -654,7 +654,7 @@
                     <div class="absolute inset-0 bg-brand-600/5 rounded-full blur-3xl transform rotate-12"></div>
                     <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029482/Exomind_PIC_Female-Model2_0125_ENUS100_rxgzxk.jpg"
                         alt="Happy Patient"
-                        class="relative z-10 rounded-2xl shadow-2xl w-full max-w-lg mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-500">
+                        class="relative z-10 rounded-2xl shadow-2xl w-full max-w-lg mx-auto transform hover:rotate-0 transition-transform duration-500">
                 </div>
 
                 <div class="w-full lg:w-1/2">
@@ -856,7 +856,7 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                         </svg>
-                                        (760) 345-7777
+                                        <a href="tel:7607605675">760-760-5675</a>
                                     </p>
                                 </div>
                             </div>
@@ -902,7 +902,7 @@
                                     class="flex-1 px-6 py-3 bg-brand-600 hover:bg-brand-500 text-white rounded-lg font-bold transition-all text-center text-sm shadow-lg shadow-brand-500/20">
                                     Visit KarmaTMS.com
                                 </a>
-                                <a href="tel:7603457777"
+                                <a href="tel:7607605675"
                                     class="flex-1 px-6 py-3 border border-white/20 hover:bg-white/10 text-white rounded-lg font-bold transition-all text-center text-sm">
                                     Call Reference Center
                                 </a>
@@ -1114,8 +1114,8 @@
                                     </div>
                                     <div>
                                         <p class="font-bold text-white text-base">Karma TMS</p>
-                                        <p class="text-slate-400 text-sm leading-relaxed mt-1">35900 Bob Hope Dr, Set
-                                            275<br>Rancho Mirage, CA 92270</p>
+                                        <p class="text-slate-400 text-sm leading-relaxed mt-1">35400 Bob Hope Dr. Suite
+                                            206<br /> Rancho Mirage, CA 92270</p>
                                     </div>
                                 </div>
 
@@ -1130,7 +1130,8 @@
                                     </div>
                                     <div>
                                         <p class="font-bold text-white text-base">Phone</p>
-                                        <p class="text-slate-400 text-sm leading-relaxed mt-1">(760) 345-7777</p>
+                                        <a href="tel:7607605675"
+                                            class="text-slate-400 text-sm leading-relaxed mt-1">760-760-5675</a>
                                     </div>
                                 </div>
 
@@ -1145,7 +1146,8 @@
                                     </div>
                                     <div>
                                         <p class="font-bold text-white text-base">Email</p>
-                                        <p class="text-slate-400 text-sm leading-relaxed mt-1">info@braintunetms.com</p>
+                                        <a href="mailto:contact@karmatms.com"
+                                            class="text-slate-400 text-sm leading-relaxed mt-1">contact@karmatms.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -1158,7 +1160,8 @@
 
                     <!-- Right: Formester Ready Form (Light Theme) -->
                     <div class="lg:col-span-3 bg-white p-8 md:p-12">
-                        <form action="YOUR_FORMESTER_URL_HERE" method="POST" class="space-y-6">
+                        <form accept-charset='UTF-8' action='https://app.formester.com/forms/6ez6N1MXA/submissions'
+                            method='POST' class="space-y-6">
                             <div class="grid md:grid-cols-2 gap-6">
                                 <div>
                                     <label for="first_name" class="block text-sm font-bold text-slate-700 mb-2">First
@@ -1188,7 +1191,7 @@
                                 <div>
                                     <label for="phone" class="block text-sm font-bold text-slate-700 mb-2">Phone
                                         Number</label>
-                                    <input type="tel" id="phone" name="phone"
+                                    <input type="tel" id="phone" name="phone" required
                                         class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all placeholder:text-slate-400"
                                         placeholder="(555) 123-4567">
                                 </div>
@@ -1200,10 +1203,9 @@
                                 <div class="relative">
                                     <select id="topic" name="topic"
                                         class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all appearance-none cursor-pointer">
-                                        <option value="General Inquiry">General Inquiry</option>
-                                        <option value="Scheduling Consultation">Scheduling a Consultation</option>
-                                        <option value="Insurance Question">Insurance Question</option>
-                                        <option value="Provider Partnership">Provider Partnership</option>
+                                        <option value="General Inquiry">Book a Consultation</option>
+                                        <option value="Scheduling Consultation">Schedule an Appointment</option>
+                                        <option value="Insurance Question">Other</option>
                                     </select>
                                     <div
                                         class="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none text-slate-500">
